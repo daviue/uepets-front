@@ -1,0 +1,33 @@
+.header {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+}
+
+.header__logo {
+    height: 100%;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.header__login {
+    font-size: 1.2rem;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.header__login:hover {
+    background: #12fd8c;
+    color: Black;
+    border: 1px solid #12fd8c;
+}
